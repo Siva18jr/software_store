@@ -1,0 +1,78 @@
+<title>App Details</title>
+{% extends "main.html" %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" >
+    <section id="body_sect1">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <h1 style="font-size: 4rem;">Instagram</h1><br>
+                <h5 style="color: green;">Instagram</h5>
+                <h6 style="color: #636669;">Contains ads  In-app purchases</h6><br>
+                <div class="flex-container">
+                    <div class="row">
+                      <div class="col">&emsp; 4.0 *<br>15 cr reviews</div>
+                      <div class="col" style="border-left: 2px solid grey;">&emsp; 500 cr+ *<br>Downloads</div>
+                      <div class="col" style="border-left: 2px solid grey;"> 4.0 *<br> Editors Choice</div>
+                      <div class="col" style="border-left: 2px solid grey;"> 4.0 *<br> Teens</div>
+                    </div>
+                </div><br>
+                <button class="btn_sect"> Install on More devices </button> &emsp; <span style="color: green;font-size: small;"><i class=" fa fa-share" style="color: #08962b;"></i><b> Share </b></span> <br><br>
+                <span style="color:rgb(66, 65, 65); font-size:small;user-select: none;"><i class=" fa fa-laptop" style="color: #636669;"></i> This app is available for all of your devices </span><br><br><br>
+              </div>
+              <div class="col-sm">
+                <img src="{% static 'images/insta.png' %}" style="float: right;" weight="250" height="250">
+              </div>
+            </div>
+        </div>  
+        <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="flex-container">
+                        <div class="row">
+                          <div class="col"><span><img src="{% static 'images/instass1.png' %}" width="150" height="350"></span></div>
+                          <div class="col"><span><img src="{% static 'images/instass2.png' %}" width="150" height="350"></span></div> 
+                          <div class="col"><span><img src="{% static 'images/instass3.png' %}" width="150" height="350"></span></div>
+                          <div class="col"><span><img src="{% static 'images/instass2.png' %}" width="150" height="350"></span></div> 
+                        </div>
+                      </div><br><br>
+                      <div>
+                        <h3> Data Safety </h3>
+                        <span style="color: #636568;font-size: 1rem;"> Safety starts with understanding how developers collect and share your data. Data privacy and security practices may vary based on your use, region and age The developer provided this information and may update it over time.<br><br></h6>
+                        <div class="box_sect">
+                          <span style="font-size: 1rem;padding: auto;"> &emsp;This app may share these data types with third parties </h5><br>
+                          <span style="font-size: 0.9rem;">  &emsp;Personal info and Device or other IDs </h6><br><br>
+                          <span style="font-size: 1rem;">  &emsp;This app may collect these data types </h5><br>
+                          <span style="font-size: 0.9rem;">  &emsp;Location, Personal info and 12 others </h6><br><br>
+                          <span style="font-size: 1rem;">  &emsp;Data is encrypted in transit </h5><br><br>
+                          <span style="font-size: 1rem;">  &emsp;You can request that data be deleted </h5><br><br>
+                          &emsp;&emsp;<span style="font-size: 1rem;color: #08962b;"><b>See Details</b></span>
+                        </div><br><br>
+                        <div>
+                          <h3> Rate this app </h3>
+                          <span style="font-size: 1rem;"> Tell others what you think. </span><br><br>
+                          <button class="phone_btn"><i class=" fa fa-mobile" style="color: #1a9711;"></i>&emsp;Phone</button><br><br>
+                          <div style="float: left;">
+                            <span><i class="fa fa-star" style="color: #cececf;"></i></span>
+                            <span><i class="fa fa-star" style="color: #cececf;"></i></span>
+                            <span><i class="fa fa-star" style="color: #cececf;"></i></span>
+                            <span><i class="fa fa-star" style="color: #cececf;"></i></span>
+                            <span><i class="fa fa-star" style="color: #cececf;"></i></span>
+                          </div>
+                          <div style="float: right;padding-right: 2%;">
+                            <button class="review_btn"><b> Write Review </b> </button><br><br>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm">
+                      <h3> App Support </h3><br><br>
+                      <h3> More Apps to try </h3>
+                    </div>
+                  </div>
+        </div>
+    </section>
+
+{% endblock content %}

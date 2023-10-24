@@ -1,0 +1,44 @@
+:root {
+    --h1-font-size: 1rem;
+    --text-color: rgb(78, 75, 75);
+}
+
+.navbar {
+    font-size: var(--h1-font-size);
+    color: var(--text-color);
+    padding-left: 5%;
+    display: inline;
+}
+
+#body_sect1 {
+    padding-top: 3%;
+}
+
+.btn_sect {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 1px white;
+    border-radius: 8%;
+}
+
+.box_sect {
+    border: 2px solid rgb(207, 203, 203);
+    border-radius: 1.5%;
+}
+
+.phone_btn {
+    background-color: rgb(159, 184, 169);
+    border-radius: 20%;
+    border-color: rgb(159, 184, 169);
+    color: green;
+}
+
+.review_btn {
+    background-color: green;
+    border-radius: 10%;
+    color: white;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
