@@ -43,12 +43,20 @@
     background-color: white;
     border-radius: 35%;
     box-shadow: 0px !important;
-    border-color: rgb(159, 184, 169);
+    border-color: grey;
     padding-left: 2%;
     padding-right: 2%;
     color: green;
 }
 .yesno_btn{
+    background-color: white;
+    border-radius: 35%;
+    box-shadow: 0px !important;
+    border: 1px solid grey;
+    padding-left: 2%;
+    padding-right:2%;
+}
+.top_btn{
     background-color: white;
     border-radius: 35%;
     box-shadow: 0px !important;
