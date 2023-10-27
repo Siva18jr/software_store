@@ -30,15 +30,56 @@
 
 .phone_btn {
     background-color: rgb(159, 184, 169);
-    border-radius: 20%;
+    border-radius: 35%;
+    box-shadow: 0px !important;
     border-color: rgb(159, 184, 169);
+    padding-left: 2%;
+    padding-right: 2%;
     color: green;
 }
 
 .review_btn {
     background-color: green;
-    border-radius: 10%;
+    border-radius: 15%;
+    border-color: white;
     color: white;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.allbtns_sect {
+    background-color: white;
+    border-radius: 35%;
+    box-shadow: 0px solid white !important;
+    border-color: grey;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: green;
+}
+
+.yesno_btn {
+    background-color: white;
+    border-radius: 35%;
+    box-shadow: 0px !important;
+    border: 1px solid grey;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.top_btn {
+    background-color: white;
+    border-radius: 35%;
+    box-shadow: 0px !important;
+    border: 1px solid grey;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.social_btn {
+    background-color: white;
+    border-radius: 35%;
+    box-shadow: 0px !important;
+    border: 1px solid grey;
+    padding-left: 2%;
+    padding-right: 2%;
 }
