@@ -13,34 +13,34 @@
     <link href="{% static 'fontawesomefree/css/solid.css' %}" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <section>
+
+  {% comment %} ----------------- navbar --------------------- {% endcomment %}
+    <section class="navigation">
         <div class="navbar">
-            <div style="float: left !important;">
-                <span><img src="{% static 'images/playstore.png' %}" width="30" height="30" style="padding-top: 1%; margin:0%"></span>
-                <span style="font-size: 1.5rem; color: #636568; ">Google Play</span>&emsp;&emsp;
-                <span><a href="#" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Games</a></span>&emsp;&emsp;
-                <span><a href="{% url 'androidApps' %}" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Apps</a></span>&emsp;&emsp;
-                <span><a href="#" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Movies & TV</a></span>&emsp;&emsp;
-                <span><a href="#" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Books</a></span>&emsp;&emsp;
-                <span><a href="#" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Children</a></span>&emsp;&emsp;
-            </div>
-      </div>
-
-      <br>
-
-      <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <span> <button class="allbtns_sect"> Phone </button></span>&emsp;
-                <span> <button class="allbtns_sect"> Tablet </button></span>&emsp;
-                <span> <button class="allbtns_sect"> Watch </button></span>&emsp;
-                <span> <button class="allbtns_sect"> ChromeBook </button></span>&emsp;
-                <span> <button class="allbtns_sect"> TV </button></span>&emsp;
-              </div>
-            </div>
+          <div style="float: left !important;">
+            <span>
+              <img src="{% static 'images/playstore.png' %}" width="30" height="30" style="padding-top: 1%; margin:0%">
+            </span>
+            <span style="font-size: 1.5rem; color: #636568; ">Google Play</span>&emsp;&emsp;
+            <span>
+              <a href="#" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Games</a>
+            </span>&emsp;&emsp;
+            <span>
+              <a href="{% url 'androidApps' %}" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Apps</a>
+            </span>&emsp;&emsp;
+            <span>
+              <a href="#" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Movies & TV</a>
+            </span>&emsp;&emsp;
+            <span>
+              <a href="#" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Books</a>
+            </span>&emsp;&emsp;
+            <span>
+              <a href="#" style="text-decoration: none;color: rgb(112, 101, 101);margin: 0% !important;padding: 0% !important;">Children</a>
+            </span>&emsp;&emsp;
+          </div>
         </div>
-        
-    </section>
+      </section>
+      <br>
 
     <div class="container">
         {% block content %}
@@ -48,6 +48,8 @@
 
         {% endblock content %}
     </div>
+
+    {% comment %} -------------------- footer ------------------------ {% endcomment %}
 
     <section id="footer">
         <div class="container" style="border-top: 1px solid grey;padding-top: 2%;color: #74777b;">
@@ -79,7 +81,7 @@
               </div>
             </div>
             <div class="col-sm">
-                  <span style="float: right;font-size: small;"><img src="img/usa.png"height="30"weight="35"> United States((English) India)</span>
+                <span style="float: right;font-size: small;"><img src="img/usa.png"height="30"weight="35"> United States((English) India)</span>
             </div>  
           </div>
         </div>
