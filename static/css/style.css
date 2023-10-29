@@ -3,6 +3,18 @@
     --text-color: rgb(78, 75, 75);
 }
 
+.navigation {
+    width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
 .navbar {
     font-size: var(--h1-font-size);
     color: var(--text-color);
@@ -29,13 +41,16 @@
 }
 
 .phone_btn {
-    background-color: rgb(159, 184, 169);
-    border-radius: 35%;
+    background-color: rgb(124, 201, 155);
     box-shadow: 0px !important;
     border-color: rgb(159, 184, 169);
     padding-left: 2%;
     padding-right: 2%;
     color: green;
+}
+
+.phone_btn:hover {
+    background-color: white;
 }
 
 .review_btn {
@@ -45,6 +60,10 @@
     color: white;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.review_btn:hover {
+    background-color: darkgreen;
 }
 
 .allbtns_sect {
@@ -57,6 +76,10 @@
     color: green;
 }
 
+.allbtns_sect:hover {
+    background-color: rgb(190, 185, 185) !important;
+}
+
 .yesno_btn {
     background-color: white;
     border-radius: 35%;
@@ -64,6 +87,10 @@
     border: 1px solid grey;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+.yesno_btn:hover {
+    background-color: rgb(190, 185, 185);
 }
 
 .top_btn {
@@ -75,6 +102,10 @@
     padding-right: 2%;
 }
 
+.top_btn:hover {
+    background-color: rgb(190, 185, 185);
+}
+
 .social_btn {
     background-color: white;
     border-radius: 35%;
@@ -82,4 +113,61 @@
     border: 1px solid grey;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+.social_btn:hover {
+    background-color: rgb(190, 185, 185);
+}
+
+.rating {
+    width: 226px;
+    margin: 0 auto 1em;
+    font-size: 45px;
+    overflow: hidden;
+}
+
+.rating input {
+    float: right;
+    opacity: 0;
+    position: absolute;
+}
+
+.rating a,
+.rating label {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    -moz-transition: color .4s;
+    -o-transition: color .4s;
+    transition: color .4s;
+}
+
+.rating label:hover~label,
+.rating input:focus~label,
+.rating label:hover,
+.rating a:hover,
+.rating a:hover~a,
+.rating a:focus,
+.rating a:focus~a {
+    color: orange;
+    cursor: pointer;
+}
+
+.rating2 {
+    direction: rtl;
+}
+
+.rating2 a {
+    float: none
+}
+
+.rate_a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.rate_a:hover,
+.rate_a:focus {
+    text-decoration: none;
 }
