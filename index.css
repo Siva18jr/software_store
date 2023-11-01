@@ -57,66 +57,39 @@
 .review_btn:hover{
     background-color: darkgreen;
 }
-.allbtns_sect{
+
+.yesno_btn, .top_btn, .social_btn, .allbtns_sect{
     background-color: white;
     border-radius: 35%;
-    box-shadow: 0px solid white !important ;
-    border-color: grey;
+    box-shadow: 0px !important;
+    border: 1px solid grey;
     padding-left: 2%;
-    padding-right: 2%;
+    padding-right:2%;
+}
+
+.allbtns_sect{ 
     color: green;
 }
-.allbtns_sect:hover{
-    background-color: rgb(190, 185, 185) !important;
-}
-.yesno_btn{
-    background-color: white;
-    border-radius: 35%;
-    box-shadow: 0px !important;
-    border: 1px solid grey;
-    padding-left: 2%;
-    padding-right:2%;
-}
-.yesno_btn:hover{
+
+.top_btn:hover, .social_btn:hover, .yesno_btn:hover, .allbtns_sect:hover{
     background-color: rgb(190, 185, 185);
 }
-.top_btn{
-    background-color: white;
-    border-radius: 35%;
-    box-shadow: 0px !important;
-    border: 1px solid grey;
-    padding-left: 2%;
-    padding-right:2%;
-}
-.top_btn:hover{
-    background-color: rgb(190, 185, 185);
-}
-.social_btn{
-    background-color: white;
-    border-radius: 35%;
-    box-shadow: 0px !important;
-    border: 1px solid grey;
-    padding-left: 2%;
-    padding-right:2%;
-}
-.social_btn:hover{
-    background-color: rgb(190, 185, 185);
-}
+
 .rating {
     width: 220px;
     margin: 0 auto 1em;
     font-size: 40px;
     overflow:hidden;
-    }
+}
     
-    .rating input {
+.rating input {
     float: right;
     opacity: 0;
     position: absolute;
-    }
+}
     
-    .rating a,
-    .rating label {
+.rating a,
+.rating label {
     float:right;
     color: #aaa;
     text-decoration: none;
@@ -124,35 +97,33 @@
     -moz-transition: color .4s;
     -o-transition: color .4s;
     transition: color .4s;
-    }
+}
     
-    .rating label:hover ~ label,
-    .rating input:focus ~ label,
-    .rating label:hover,
-    .rating a:hover,
-    .rating a:hover ~ a,
-    .rating a:focus,
-    .rating a:focus ~ a {
+.rating label:hover ~ label,
+.rating input:focus ~ label,
+.rating label:hover,
+.rating a:hover,
+.rating a:hover ~ a,
+.rating a:focus,
+.rating a:focus ~ a {
     color: orange;
     cursor: pointer;
-    }
+}
     
-    .rating2 {
+.rating2 {
     direction: rtl;
-    }
+}
     
-    .rating2 a {
+.rating2 a {
     float:none
-    }
+}
     
-    .rate_a{
+.rate_a{
     color: #aaa;
     text-decoration: none;
-    }
+}
     
-    .rate_a:hover,
-    .rate_a:focus{
+.rate_a:hover,
+.rate_a:focus{
     text-decoration: none;
-    }
-
-
+}
